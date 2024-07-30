@@ -1,0 +1,45 @@
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(221, 126, 126);
+}
+
+.textgreen{
+    color: green;
+}
+
+
+.textblue{
+    color: blue;
+}
+
+#textpink{
+    color: pink;
+}
+
+div {
+  width:300px;
+  margin:auto;
+  background-color: #a3f4ff;
+}
+
+.div-bg1{
+    background-color: deeppink;
+}
+
+.div-bg2{
+    background-color: rgb(41, 214, 70);
+}
+
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+    text-align: center;
+  }
+  .mycontainer div {
+    width:33%;
+    float:left;
+  }
+

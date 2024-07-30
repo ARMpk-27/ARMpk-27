@@ -2,24 +2,39 @@
 <html lang="en">
 <head>
     <title>Index</title>
+    
+    <style>
+        h1 {
+          color: aqua; 
+        }
+    </style>
+
+    <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-    <h1>index.html</h1>
+    <h1 style="color: brown;">index.html</h1>
     <br>
+    <h1 id="textpink">index.html</h1>
     <table border="1" bgcolor="red">
         <caption><h1>Caption of table</h1></caption>
-        <th>
         <tr>
-            <td>data1</td>
-            <td>data2</td>
+            <th>cols 1</th>
+            <th>cols 2</th>
+            <th>cols 3</th>
         </tr>
         <tr>
+            <td colspan="2" rowspan="2">data1</td>
+            
             <td>data3</td>
-            <td>data4</td>
         </tr>
         <tr>
-            <td>data5</td>
+            
             <td>data6</td>
+        </tr>
+        <tr>
+            <td>data7</td>
+            <td>data8</td>
+            <td>data9</td>
         </tr>
 
     </table>
