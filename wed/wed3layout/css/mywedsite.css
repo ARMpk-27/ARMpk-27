@@ -1,0 +1,37 @@
+.content{
+    border: 2px solid black;
+    height: 500px;
+    width: 100%;
+}
+
+.header{
+    border: 2px solid rgb(255, 0, 0);
+    width: 100%;
+    text-align: center;
+}
+
+.aside{
+    flex-direction: column;
+    display: flex;
+    float: left;
+    flex: 30%;
+    width:29%;
+    height: 500px;
+    border: 1px solid rgb(9, 255, 0);
+
+}
+
+.article{
+    float: left;
+    display: flex;
+    flex: 70%;
+    width: 70%;
+    height: 500px;
+    border: 1px solid rgb(0, 140, 255);
+
+}
+
+.footer{
+    border: 2px solid rgb(255, 0, 179);
+    width: 100%;
+}
