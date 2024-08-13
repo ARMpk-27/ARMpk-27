@@ -10,21 +10,19 @@
     text-align: center;
 }
 
-.aside{
+aside{
     flex-direction: column;
     display: flex;
     float: left;
-    flex: 30%;
-    width:29%;
+    width:30%;
     height: 500px;
     border: 1px solid rgb(9, 255, 0);
 
 }
 
-.article{
+article{
     float: left;
     display: flex;
-    flex: 70%;
     width: 70%;
     height: 500px;
     border: 1px solid rgb(0, 140, 255);
